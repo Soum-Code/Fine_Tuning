@@ -1,0 +1,43 @@
+base_models:
+  qwen3_coder_30b:
+    model_name: "Qwen/Qwen3-30B"
+    tokenizer_name: "Qwen/Qwen3-30B"
+    model_class: "AutoModelForCausalLM"
+    tokenizer_class: "AutoTokenizer"
+
+  qwen2_5_0_5b:
+    model_name: "Qwen/Qwen2.5-0.5B-Instruct"
+    tokenizer_name: "Qwen/Qwen2.5-0.5B-Instruct"
+    model_class: "AutoModelForCausalLM"
+    tokenizer_class: "AutoTokenizer"
+
+  gpt_oss_20b:
+    model_name: "openai/gpt-oss-20b"
+    tokenizer_name: "openai/gpt-oss-20b"
+    model_class: "AutoModelForCausalLM"
+    tokenizer_class: "AutoTokenizer"
+
+  llama_3_8b:
+    model_name: "meta-llama/Meta-Llama-3-8B"
+    tokenizer_name: "meta-llama/Meta-Llama-3-8B"
+    model_class: "AutoModelForCausalLM"
+    tokenizer_class: "AutoTokenizer"
+
+  qwen_7b:
+    model_name: "Qwen/Qwen2.5-7B-Instruct"
+    tokenizer_name: "Qwen/Qwen2.5-7B-Instruct"
+    model_class: "AutoModelForCausalLM"
+    tokenizer_class: "AutoTokenizer"
+
+quantization:
+  use_4bit: true
+  bnb_4bit_quant_type: "nf4"
+  bnb_4bit_compute_dtype: "float16"
+  bnb_4bit_use_double_quant: true
+
+lora:
+  r: 8
+  lora_alpha: 32
+  lora_dropout: 0.1
+  bias: "none"
+  target_modules: ["q_proj", "v_proj", "k_proj", "o_proj"]

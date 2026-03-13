@@ -1,0 +1,402 @@
+[
+  {
+    "instruction": "What is 20 * 22?",
+    "response": "<thought> To solve 20 * 22, I will decompose the multiplication into 20 * 10 and 20 * 12 and then add the results. </thought> <atom> 20 * 10 = 200 </atom> <atom> 20 * 12 = 240 </atom> <atom> 200 + 240 = 440 </atom> <final_answer> 440 </final_answer>"
+  },
+  {
+    "instruction": "What is 12 * 23?",
+    "response": "<thought> To solve 12 * 23, I will decompose the multiplication into 12 * 10 and 12 * 13 and then add the results. </thought> <atom> 12 * 10 = 120 </atom> <atom> 12 * 13 = 156 </atom> <atom> 120 + 156 = 276 </atom> <final_answer> 276 </final_answer>"
+  },
+  {
+    "instruction": "What is 16 * 18?",
+    "response": "<thought> To solve 16 * 18, I will decompose the multiplication into 16 * 10 and 16 * 8 and then add the results. </thought> <atom> 16 * 10 = 160 </atom> <atom> 16 * 8 = 128 </atom> <atom> 160 + 128 = 288 </atom> <final_answer> 288 </final_answer>"
+  },
+  {
+    "instruction": "What is 14 * 23?",
+    "response": "<thought> To solve 14 * 23, I will decompose the multiplication into 14 * 10 and 14 * 13 and then add the results. </thought> <atom> 14 * 10 = 140 </atom> <atom> 14 * 13 = 182 </atom> <atom> 140 + 182 = 322 </atom> <final_answer> 322 </final_answer>"
+  },
+  {
+    "instruction": "What is 19 * 24?",
+    "response": "<thought> To solve 19 * 24, I will decompose the multiplication into 19 * 10 and 19 * 14 and then add the results. </thought> <atom> 19 * 10 = 190 </atom> <atom> 19 * 14 = 266 </atom> <atom> 190 + 266 = 456 </atom> <final_answer> 456 </final_answer>"
+  },
+  {
+    "instruction": "What is 13 * 12?",
+    "response": "<thought> To solve 13 * 12, I will decompose the multiplication into 13 * 10 and 13 * 2 and then add the results. </thought> <atom> 13 * 10 = 130 </atom> <atom> 13 * 2 = 26 </atom> <atom> 130 + 26 = 156 </atom> <final_answer> 156 </final_answer>"
+  },
+  {
+    "instruction": "What is 19 * 18?",
+    "response": "<thought> To solve 19 * 18, I will decompose the multiplication into 19 * 10 and 19 * 8 and then add the results. </thought> <atom> 19 * 10 = 190 </atom> <atom> 19 * 8 = 152 </atom> <atom> 190 + 152 = 342 </atom> <final_answer> 342 </final_answer>"
+  },
+  {
+    "instruction": "What is 19 * 16?",
+    "response": "<thought> To solve 19 * 16, I will decompose the multiplication into 19 * 10 and 19 * 6 and then add the results. </thought> <atom> 19 * 10 = 190 </atom> <atom> 19 * 6 = 114 </atom> <atom> 190 + 114 = 304 </atom> <final_answer> 304 </final_answer>"
+  },
+  {
+    "instruction": "What is 16 * 23?",
+    "response": "<thought> To solve 16 * 23, I will decompose the multiplication into 16 * 10 and 16 * 13 and then add the results. </thought> <atom> 16 * 10 = 160 </atom> <atom> 16 * 13 = 208 </atom> <atom> 160 + 208 = 368 </atom> <final_answer> 368 </final_answer>"
+  },
+  {
+    "instruction": "What is 11 * 18?",
+    "response": "<thought> To solve 11 * 18, I will decompose the multiplication into 11 * 10 and 11 * 8 and then add the results. </thought> <atom> 11 * 10 = 110 </atom> <atom> 11 * 8 = 88 </atom> <atom> 110 + 88 = 198 </atom> <final_answer> 198 </final_answer>"
+  },
+  {
+    "instruction": "What is 18 * 14?",
+    "response": "<thought> To solve 18 * 14, I will decompose the multiplication into 18 * 10 and 18 * 4 and then add the results. </thought> <atom> 18 * 10 = 180 </atom> <atom> 18 * 4 = 72 </atom> <atom> 180 + 72 = 252 </atom> <final_answer> 252 </final_answer>"
+  },
+  {
+    "instruction": "What is 14 * 19?",
+    "response": "<thought> To solve 14 * 19, I will decompose the multiplication into 14 * 10 and 14 * 9 and then add the results. </thought> <atom> 14 * 10 = 140 </atom> <atom> 14 * 9 = 126 </atom> <atom> 140 + 126 = 266 </atom> <final_answer> 266 </final_answer>"
+  },
+  {
+    "instruction": "What is 19 * 20?",
+    "response": "<thought> To solve 19 * 20, I will decompose the multiplication into 19 * 10 and 19 * 10 and then add the results. </thought> <atom> 19 * 10 = 190 </atom> <atom> 19 * 10 = 190 </atom> <atom> 190 + 190 = 380 </atom> <final_answer> 380 </final_answer>"
+  },
+  {
+    "instruction": "What is 14 * 12?",
+    "response": "<thought> To solve 14 * 12, I will decompose the multiplication into 14 * 10 and 14 * 2 and then add the results. </thought> <atom> 14 * 10 = 140 </atom> <atom> 14 * 2 = 28 </atom> <atom> 140 + 28 = 168 </atom> <final_answer> 168 </final_answer>"
+  },
+  {
+    "instruction": "What is 15 * 13?",
+    "response": "<thought> To solve 15 * 13, I will decompose the multiplication into 15 * 10 and 15 * 3 and then add the results. </thought> <atom> 15 * 10 = 150 </atom> <atom> 15 * 3 = 45 </atom> <atom> 150 + 45 = 195 </atom> <final_answer> 195 </final_answer>"
+  },
+  {
+    "instruction": "What is 19 * 17?",
+    "response": "<thought> To solve 19 * 17, I will decompose the multiplication into 19 * 10 and 19 * 7 and then add the results. </thought> <atom> 19 * 10 = 190 </atom> <atom> 19 * 7 = 133 </atom> <atom> 190 + 133 = 323 </atom> <final_answer> 323 </final_answer>"
+  },
+  {
+    "instruction": "What is 16 * 19?",
+    "response": "<thought> To solve 16 * 19, I will decompose the multiplication into 16 * 10 and 16 * 9 and then add the results. </thought> <atom> 16 * 10 = 160 </atom> <atom> 16 * 9 = 144 </atom> <atom> 160 + 144 = 304 </atom> <final_answer> 304 </final_answer>"
+  },
+  {
+    "instruction": "What is 17 * 21?",
+    "response": "<thought> To solve 17 * 21, I will decompose the multiplication into 17 * 10 and 17 * 11 and then add the results. </thought> <atom> 17 * 10 = 170 </atom> <atom> 17 * 11 = 187 </atom> <atom> 170 + 187 = 357 </atom> <final_answer> 357 </final_answer>"
+  },
+  {
+    "instruction": "What is 14 * 11?",
+    "response": "<thought> To solve 14 * 11, I will decompose the multiplication into 14 * 10 and 14 * 1 and then add the results. </thought> <atom> 14 * 10 = 140 </atom> <atom> 14 * 1 = 14 </atom> <atom> 140 + 14 = 154 </atom> <final_answer> 154 </final_answer>"
+  },
+  {
+    "instruction": "What is 15 * 25?",
+    "response": "<thought> To solve 15 * 25, I will decompose the multiplication into 15 * 10 and 15 * 15 and then add the results. </thought> <atom> 15 * 10 = 150 </atom> <atom> 15 * 15 = 225 </atom> <atom> 150 + 225 = 375 </atom> <final_answer> 375 </final_answer>"
+  },
+  {
+    "instruction": "What is 11 * 16?",
+    "response": "<thought> To solve 11 * 16, I will decompose the multiplication into 11 * 10 and 11 * 6 and then add the results. </thought> <atom> 11 * 10 = 110 </atom> <atom> 11 * 6 = 66 </atom> <atom> 110 + 66 = 176 </atom> <final_answer> 176 </final_answer>"
+  },
+  {
+    "instruction": "What is 16 * 18?",
+    "response": "<thought> To solve 16 * 18, I will decompose the multiplication into 16 * 10 and 16 * 8 and then add the results. </thought> <atom> 16 * 10 = 160 </atom> <atom> 16 * 8 = 128 </atom> <atom> 160 + 128 = 288 </atom> <final_answer> 288 </final_answer>"
+  },
+  {
+    "instruction": "What is 13 * 25?",
+    "response": "<thought> To solve 13 * 25, I will decompose the multiplication into 13 * 10 and 13 * 15 and then add the results. </thought> <atom> 13 * 10 = 130 </atom> <atom> 13 * 15 = 195 </atom> <atom> 130 + 195 = 325 </atom> <final_answer> 325 </final_answer>"
+  },
+  {
+    "instruction": "What is 15 * 25?",
+    "response": "<thought> To solve 15 * 25, I will decompose the multiplication into 15 * 10 and 15 * 15 and then add the results. </thought> <atom> 15 * 10 = 150 </atom> <atom> 15 * 15 = 225 </atom> <atom> 150 + 225 = 375 </atom> <final_answer> 375 </final_answer>"
+  },
+  {
+    "instruction": "What is 20 * 21?",
+    "response": "<thought> To solve 20 * 21, I will decompose the multiplication into 20 * 10 and 20 * 11 and then add the results. </thought> <atom> 20 * 10 = 200 </atom> <atom> 20 * 11 = 220 </atom> <atom> 200 + 220 = 420 </atom> <final_answer> 420 </final_answer>"
+  },
+  {
+    "instruction": "What is 18 * 22?",
+    "response": "<thought> To solve 18 * 22, I will decompose the multiplication into 18 * 10 and 18 * 12 and then add the results. </thought> <atom> 18 * 10 = 180 </atom> <atom> 18 * 12 = 216 </atom> <atom> 180 + 216 = 396 </atom> <final_answer> 396 </final_answer>"
+  },
+  {
+    "instruction": "What is 19 * 19?",
+    "response": "<thought> To solve 19 * 19, I will decompose the multiplication into 19 * 10 and 19 * 9 and then add the results. </thought> <atom> 19 * 10 = 190 </atom> <atom> 19 * 9 = 171 </atom> <atom> 190 + 171 = 361 </atom> <final_answer> 361 </final_answer>"
+  },
+  {
+    "instruction": "What is 17 * 21?",
+    "response": "<thought> To solve 17 * 21, I will decompose the multiplication into 17 * 10 and 17 * 11 and then add the results. </thought> <atom> 17 * 10 = 170 </atom> <atom> 17 * 11 = 187 </atom> <atom> 170 + 187 = 357 </atom> <final_answer> 357 </final_answer>"
+  },
+  {
+    "instruction": "What is 11 * 22?",
+    "response": "<thought> To solve 11 * 22, I will decompose the multiplication into 11 * 10 and 11 * 12 and then add the results. </thought> <atom> 11 * 10 = 110 </atom> <atom> 11 * 12 = 132 </atom> <atom> 110 + 132 = 242 </atom> <final_answer> 242 </final_answer>"
+  },
+  {
+    "instruction": "What is 15 * 12?",
+    "response": "<thought> To solve 15 * 12, I will decompose the multiplication into 15 * 10 and 15 * 2 and then add the results. </thought> <atom> 15 * 10 = 150 </atom> <atom> 15 * 2 = 30 </atom> <atom> 150 + 30 = 180 </atom> <final_answer> 180 </final_answer>"
+  },
+  {
+    "instruction": "What is 18 * 17?",
+    "response": "<thought> To solve 18 * 17, I will decompose the multiplication into 18 * 10 and 18 * 7 and then add the results. </thought> <atom> 18 * 10 = 180 </atom> <atom> 18 * 7 = 126 </atom> <atom> 180 + 126 = 306 </atom> <final_answer> 306 </final_answer>"
+  },
+  {
+    "instruction": "What is 20 * 23?",
+    "response": "<thought> To solve 20 * 23, I will decompose the multiplication into 20 * 10 and 20 * 13 and then add the results. </thought> <atom> 20 * 10 = 200 </atom> <atom> 20 * 13 = 260 </atom> <atom> 200 + 260 = 460 </atom> <final_answer> 460 </final_answer>"
+  },
+  {
+    "instruction": "What is 19 * 11?",
+    "response": "<thought> To solve 19 * 11, I will decompose the multiplication into 19 * 10 and 19 * 1 and then add the results. </thought> <atom> 19 * 10 = 190 </atom> <atom> 19 * 1 = 19 </atom> <atom> 190 + 19 = 209 </atom> <final_answer> 209 </final_answer>"
+  },
+  {
+    "instruction": "What is 12 * 11?",
+    "response": "<thought> To solve 12 * 11, I will decompose the multiplication into 12 * 10 and 12 * 1 and then add the results. </thought> <atom> 12 * 10 = 120 </atom> <atom> 12 * 1 = 12 </atom> <atom> 120 + 12 = 132 </atom> <final_answer> 132 </final_answer>"
+  },
+  {
+    "instruction": "What is 13 * 18?",
+    "response": "<thought> To solve 13 * 18, I will decompose the multiplication into 13 * 10 and 13 * 8 and then add the results. </thought> <atom> 13 * 10 = 130 </atom> <atom> 13 * 8 = 104 </atom> <atom> 130 + 104 = 234 </atom> <final_answer> 234 </final_answer>"
+  },
+  {
+    "instruction": "What is 15 * 13?",
+    "response": "<thought> To solve 15 * 13, I will decompose the multiplication into 15 * 10 and 15 * 3 and then add the results. </thought> <atom> 15 * 10 = 150 </atom> <atom> 15 * 3 = 45 </atom> <atom> 150 + 45 = 195 </atom> <final_answer> 195 </final_answer>"
+  },
+  {
+    "instruction": "What is 17 * 18?",
+    "response": "<thought> To solve 17 * 18, I will decompose the multiplication into 17 * 10 and 17 * 8 and then add the results. </thought> <atom> 17 * 10 = 170 </atom> <atom> 17 * 8 = 136 </atom> <atom> 170 + 136 = 306 </atom> <final_answer> 306 </final_answer>"
+  },
+  {
+    "instruction": "What is 11 * 22?",
+    "response": "<thought> To solve 11 * 22, I will decompose the multiplication into 11 * 10 and 11 * 12 and then add the results. </thought> <atom> 11 * 10 = 110 </atom> <atom> 11 * 12 = 132 </atom> <atom> 110 + 132 = 242 </atom> <final_answer> 242 </final_answer>"
+  },
+  {
+    "instruction": "What is 19 * 17?",
+    "response": "<thought> To solve 19 * 17, I will decompose the multiplication into 19 * 10 and 19 * 7 and then add the results. </thought> <atom> 19 * 10 = 190 </atom> <atom> 19 * 7 = 133 </atom> <atom> 190 + 133 = 323 </atom> <final_answer> 323 </final_answer>"
+  },
+  {
+    "instruction": "What is 17 * 16?",
+    "response": "<thought> To solve 17 * 16, I will decompose the multiplication into 17 * 10 and 17 * 6 and then add the results. </thought> <atom> 17 * 10 = 170 </atom> <atom> 17 * 6 = 102 </atom> <atom> 170 + 102 = 272 </atom> <final_answer> 272 </final_answer>"
+  },
+  {
+    "instruction": "What is 17 * 11?",
+    "response": "<thought> To solve 17 * 11, I will decompose the multiplication into 17 * 10 and 17 * 1 and then add the results. </thought> <atom> 17 * 10 = 170 </atom> <atom> 17 * 1 = 17 </atom> <atom> 170 + 17 = 187 </atom> <final_answer> 187 </final_answer>"
+  },
+  {
+    "instruction": "What is 11 * 11?",
+    "response": "<thought> To solve 11 * 11, I will decompose the multiplication into 11 * 10 and 11 * 1 and then add the results. </thought> <atom> 11 * 10 = 110 </atom> <atom> 11 * 1 = 11 </atom> <atom> 110 + 11 = 121 </atom> <final_answer> 121 </final_answer>"
+  },
+  {
+    "instruction": "What is 16 * 12?",
+    "response": "<thought> To solve 16 * 12, I will decompose the multiplication into 16 * 10 and 16 * 2 and then add the results. </thought> <atom> 16 * 10 = 160 </atom> <atom> 16 * 2 = 32 </atom> <atom> 160 + 32 = 192 </atom> <final_answer> 192 </final_answer>"
+  },
+  {
+    "instruction": "What is 18 * 20?",
+    "response": "<thought> To solve 18 * 20, I will decompose the multiplication into 18 * 10 and 18 * 10 and then add the results. </thought> <atom> 18 * 10 = 180 </atom> <atom> 18 * 10 = 180 </atom> <atom> 180 + 180 = 360 </atom> <final_answer> 360 </final_answer>"
+  },
+  {
+    "instruction": "What is 13 * 23?",
+    "response": "<thought> To solve 13 * 23, I will decompose the multiplication into 13 * 10 and 13 * 13 and then add the results. </thought> <atom> 13 * 10 = 130 </atom> <atom> 13 * 13 = 169 </atom> <atom> 130 + 169 = 299 </atom> <final_answer> 299 </final_answer>"
+  },
+  {
+    "instruction": "What is 15 * 25?",
+    "response": "<thought> To solve 15 * 25, I will decompose the multiplication into 15 * 10 and 15 * 15 and then add the results. </thought> <atom> 15 * 10 = 150 </atom> <atom> 15 * 15 = 225 </atom> <atom> 150 + 225 = 375 </atom> <final_answer> 375 </final_answer>"
+  },
+  {
+    "instruction": "What is 11 * 13?",
+    "response": "<thought> To solve 11 * 13, I will decompose the multiplication into 11 * 10 and 11 * 3 and then add the results. </thought> <atom> 11 * 10 = 110 </atom> <atom> 11 * 3 = 33 </atom> <atom> 110 + 33 = 143 </atom> <final_answer> 143 </final_answer>"
+  },
+  {
+    "instruction": "What is 14 * 11?",
+    "response": "<thought> To solve 14 * 11, I will decompose the multiplication into 14 * 10 and 14 * 1 and then add the results. </thought> <atom> 14 * 10 = 140 </atom> <atom> 14 * 1 = 14 </atom> <atom> 140 + 14 = 154 </atom> <final_answer> 154 </final_answer>"
+  },
+  {
+    "instruction": "What is 15 * 15?",
+    "response": "<thought> To solve 15 * 15, I will decompose the multiplication into 15 * 10 and 15 * 5 and then add the results. </thought> <atom> 15 * 10 = 150 </atom> <atom> 15 * 5 = 75 </atom> <atom> 150 + 75 = 225 </atom> <final_answer> 225 </final_answer>"
+  },
+  {
+    "instruction": "What is 17 * 16?",
+    "response": "<thought> To solve 17 * 16, I will decompose the multiplication into 17 * 10 and 17 * 6 and then add the results. </thought> <atom> 17 * 10 = 170 </atom> <atom> 17 * 6 = 102 </atom> <atom> 170 + 102 = 272 </atom> <final_answer> 272 </final_answer>"
+  },
+  {
+    "instruction": "What is 11 * 17?",
+    "response": "<thought> To solve 11 * 17, I will decompose the multiplication into 11 * 10 and 11 * 7 and then add the results. </thought> <atom> 11 * 10 = 110 </atom> <atom> 11 * 7 = 77 </atom> <atom> 110 + 77 = 187 </atom> <final_answer> 187 </final_answer>"
+  },
+  {
+    "instruction": "What is 19 * 25?",
+    "response": "<thought> To solve 19 * 25, I will decompose the multiplication into 19 * 10 and 19 * 15 and then add the results. </thought> <atom> 19 * 10 = 190 </atom> <atom> 19 * 15 = 285 </atom> <atom> 190 + 285 = 475 </atom> <final_answer> 475 </final_answer>"
+  },
+  {
+    "instruction": "What is 14 * 14?",
+    "response": "<thought> To solve 14 * 14, I will decompose the multiplication into 14 * 10 and 14 * 4 and then add the results. </thought> <atom> 14 * 10 = 140 </atom> <atom> 14 * 4 = 56 </atom> <atom> 140 + 56 = 196 </atom> <final_answer> 196 </final_answer>"
+  },
+  {
+    "instruction": "What is 18 * 21?",
+    "response": "<thought> To solve 18 * 21, I will decompose the multiplication into 18 * 10 and 18 * 11 and then add the results. </thought> <atom> 18 * 10 = 180 </atom> <atom> 18 * 11 = 198 </atom> <atom> 180 + 198 = 378 </atom> <final_answer> 378 </final_answer>"
+  },
+  {
+    "instruction": "What is 13 * 13?",
+    "response": "<thought> To solve 13 * 13, I will decompose the multiplication into 13 * 10 and 13 * 3 and then add the results. </thought> <atom> 13 * 10 = 130 </atom> <atom> 13 * 3 = 39 </atom> <atom> 130 + 39 = 169 </atom> <final_answer> 169 </final_answer>"
+  },
+  {
+    "instruction": "What is 14 * 11?",
+    "response": "<thought> To solve 14 * 11, I will decompose the multiplication into 14 * 10 and 14 * 1 and then add the results. </thought> <atom> 14 * 10 = 140 </atom> <atom> 14 * 1 = 14 </atom> <atom> 140 + 14 = 154 </atom> <final_answer> 154 </final_answer>"
+  },
+  {
+    "instruction": "What is 19 * 17?",
+    "response": "<thought> To solve 19 * 17, I will decompose the multiplication into 19 * 10 and 19 * 7 and then add the results. </thought> <atom> 19 * 10 = 190 </atom> <atom> 19 * 7 = 133 </atom> <atom> 190 + 133 = 323 </atom> <final_answer> 323 </final_answer>"
+  },
+  {
+    "instruction": "What is 11 * 24?",
+    "response": "<thought> To solve 11 * 24, I will decompose the multiplication into 11 * 10 and 11 * 14 and then add the results. </thought> <atom> 11 * 10 = 110 </atom> <atom> 11 * 14 = 154 </atom> <atom> 110 + 154 = 264 </atom> <final_answer> 264 </final_answer>"
+  },
+  {
+    "instruction": "What is 17 * 18?",
+    "response": "<thought> To solve 17 * 18, I will decompose the multiplication into 17 * 10 and 17 * 8 and then add the results. </thought> <atom> 17 * 10 = 170 </atom> <atom> 17 * 8 = 136 </atom> <atom> 170 + 136 = 306 </atom> <final_answer> 306 </final_answer>"
+  },
+  {
+    "instruction": "What is 17 * 24?",
+    "response": "<thought> To solve 17 * 24, I will decompose the multiplication into 17 * 10 and 17 * 14 and then add the results. </thought> <atom> 17 * 10 = 170 </atom> <atom> 17 * 14 = 238 </atom> <atom> 170 + 238 = 408 </atom> <final_answer> 408 </final_answer>"
+  },
+  {
+    "instruction": "What is 16 * 22?",
+    "response": "<thought> To solve 16 * 22, I will decompose the multiplication into 16 * 10 and 16 * 12 and then add the results. </thought> <atom> 16 * 10 = 160 </atom> <atom> 16 * 12 = 192 </atom> <atom> 160 + 192 = 352 </atom> <final_answer> 352 </final_answer>"
+  },
+  {
+    "instruction": "What is 12 * 21?",
+    "response": "<thought> To solve 12 * 21, I will decompose the multiplication into 12 * 10 and 12 * 11 and then add the results. </thought> <atom> 12 * 10 = 120 </atom> <atom> 12 * 11 = 132 </atom> <atom> 120 + 132 = 252 </atom> <final_answer> 252 </final_answer>"
+  },
+  {
+    "instruction": "What is 12 * 19?",
+    "response": "<thought> To solve 12 * 19, I will decompose the multiplication into 12 * 10 and 12 * 9 and then add the results. </thought> <atom> 12 * 10 = 120 </atom> <atom> 12 * 9 = 108 </atom> <atom> 120 + 108 = 228 </atom> <final_answer> 228 </final_answer>"
+  },
+  {
+    "instruction": "What is 17 * 19?",
+    "response": "<thought> To solve 17 * 19, I will decompose the multiplication into 17 * 10 and 17 * 9 and then add the results. </thought> <atom> 17 * 10 = 170 </atom> <atom> 17 * 9 = 153 </atom> <atom> 170 + 153 = 323 </atom> <final_answer> 323 </final_answer>"
+  },
+  {
+    "instruction": "What is 20 * 25?",
+    "response": "<thought> To solve 20 * 25, I will decompose the multiplication into 20 * 10 and 20 * 15 and then add the results. </thought> <atom> 20 * 10 = 200 </atom> <atom> 20 * 15 = 300 </atom> <atom> 200 + 300 = 500 </atom> <final_answer> 500 </final_answer>"
+  },
+  {
+    "instruction": "What is 14 * 13?",
+    "response": "<thought> To solve 14 * 13, I will decompose the multiplication into 14 * 10 and 14 * 3 and then add the results. </thought> <atom> 14 * 10 = 140 </atom> <atom> 14 * 3 = 42 </atom> <atom> 140 + 42 = 182 </atom> <final_answer> 182 </final_answer>"
+  },
+  {
+    "instruction": "What is 17 * 19?",
+    "response": "<thought> To solve 17 * 19, I will decompose the multiplication into 17 * 10 and 17 * 9 and then add the results. </thought> <atom> 17 * 10 = 170 </atom> <atom> 17 * 9 = 153 </atom> <atom> 170 + 153 = 323 </atom> <final_answer> 323 </final_answer>"
+  },
+  {
+    "instruction": "What is 11 * 23?",
+    "response": "<thought> To solve 11 * 23, I will decompose the multiplication into 11 * 10 and 11 * 13 and then add the results. </thought> <atom> 11 * 10 = 110 </atom> <atom> 11 * 13 = 143 </atom> <atom> 110 + 143 = 253 </atom> <final_answer> 253 </final_answer>"
+  },
+  {
+    "instruction": "What is 13 * 11?",
+    "response": "<thought> To solve 13 * 11, I will decompose the multiplication into 13 * 10 and 13 * 1 and then add the results. </thought> <atom> 13 * 10 = 130 </atom> <atom> 13 * 1 = 13 </atom> <atom> 130 + 13 = 143 </atom> <final_answer> 143 </final_answer>"
+  },
+  {
+    "instruction": "What is 12 * 25?",
+    "response": "<thought> To solve 12 * 25, I will decompose the multiplication into 12 * 10 and 12 * 15 and then add the results. </thought> <atom> 12 * 10 = 120 </atom> <atom> 12 * 15 = 180 </atom> <atom> 120 + 180 = 300 </atom> <final_answer> 300 </final_answer>"
+  },
+  {
+    "instruction": "What is 15 * 19?",
+    "response": "<thought> To solve 15 * 19, I will decompose the multiplication into 15 * 10 and 15 * 9 and then add the results. </thought> <atom> 15 * 10 = 150 </atom> <atom> 15 * 9 = 135 </atom> <atom> 150 + 135 = 285 </atom> <final_answer> 285 </final_answer>"
+  },
+  {
+    "instruction": "What is 17 * 19?",
+    "response": "<thought> To solve 17 * 19, I will decompose the multiplication into 17 * 10 and 17 * 9 and then add the results. </thought> <atom> 17 * 10 = 170 </atom> <atom> 17 * 9 = 153 </atom> <atom> 170 + 153 = 323 </atom> <final_answer> 323 </final_answer>"
+  },
+  {
+    "instruction": "What is 17 * 24?",
+    "response": "<thought> To solve 17 * 24, I will decompose the multiplication into 17 * 10 and 17 * 14 and then add the results. </thought> <atom> 17 * 10 = 170 </atom> <atom> 17 * 14 = 238 </atom> <atom> 170 + 238 = 408 </atom> <final_answer> 408 </final_answer>"
+  },
+  {
+    "instruction": "What is 19 * 13?",
+    "response": "<thought> To solve 19 * 13, I will decompose the multiplication into 19 * 10 and 19 * 3 and then add the results. </thought> <atom> 19 * 10 = 190 </atom> <atom> 19 * 3 = 57 </atom> <atom> 190 + 57 = 247 </atom> <final_answer> 247 </final_answer>"
+  },
+  {
+    "instruction": "What is 14 * 16?",
+    "response": "<thought> To solve 14 * 16, I will decompose the multiplication into 14 * 10 and 14 * 6 and then add the results. </thought> <atom> 14 * 10 = 140 </atom> <atom> 14 * 6 = 84 </atom> <atom> 140 + 84 = 224 </atom> <final_answer> 224 </final_answer>"
+  },
+  {
+    "instruction": "What is 17 * 16?",
+    "response": "<thought> To solve 17 * 16, I will decompose the multiplication into 17 * 10 and 17 * 6 and then add the results. </thought> <atom> 17 * 10 = 170 </atom> <atom> 17 * 6 = 102 </atom> <atom> 170 + 102 = 272 </atom> <final_answer> 272 </final_answer>"
+  },
+  {
+    "instruction": "What is 13 * 17?",
+    "response": "<thought> To solve 13 * 17, I will decompose the multiplication into 13 * 10 and 13 * 7 and then add the results. </thought> <atom> 13 * 10 = 130 </atom> <atom> 13 * 7 = 91 </atom> <atom> 130 + 91 = 221 </atom> <final_answer> 221 </final_answer>"
+  },
+  {
+    "instruction": "What is 13 * 19?",
+    "response": "<thought> To solve 13 * 19, I will decompose the multiplication into 13 * 10 and 13 * 9 and then add the results. </thought> <atom> 13 * 10 = 130 </atom> <atom> 13 * 9 = 117 </atom> <atom> 130 + 117 = 247 </atom> <final_answer> 247 </final_answer>"
+  },
+  {
+    "instruction": "What is 15 * 25?",
+    "response": "<thought> To solve 15 * 25, I will decompose the multiplication into 15 * 10 and 15 * 15 and then add the results. </thought> <atom> 15 * 10 = 150 </atom> <atom> 15 * 15 = 225 </atom> <atom> 150 + 225 = 375 </atom> <final_answer> 375 </final_answer>"
+  },
+  {
+    "instruction": "What is 18 * 21?",
+    "response": "<thought> To solve 18 * 21, I will decompose the multiplication into 18 * 10 and 18 * 11 and then add the results. </thought> <atom> 18 * 10 = 180 </atom> <atom> 18 * 11 = 198 </atom> <atom> 180 + 198 = 378 </atom> <final_answer> 378 </final_answer>"
+  },
+  {
+    "instruction": "What is 16 * 15?",
+    "response": "<thought> To solve 16 * 15, I will decompose the multiplication into 16 * 10 and 16 * 5 and then add the results. </thought> <atom> 16 * 10 = 160 </atom> <atom> 16 * 5 = 80 </atom> <atom> 160 + 80 = 240 </atom> <final_answer> 240 </final_answer>"
+  },
+  {
+    "instruction": "What is 13 * 21?",
+    "response": "<thought> To solve 13 * 21, I will decompose the multiplication into 13 * 10 and 13 * 11 and then add the results. </thought> <atom> 13 * 10 = 130 </atom> <atom> 13 * 11 = 143 </atom> <atom> 130 + 143 = 273 </atom> <final_answer> 273 </final_answer>"
+  },
+  {
+    "instruction": "What is 20 * 11?",
+    "response": "<thought> To solve 20 * 11, I will decompose the multiplication into 20 * 10 and 20 * 1 and then add the results. </thought> <atom> 20 * 10 = 200 </atom> <atom> 20 * 1 = 20 </atom> <atom> 200 + 20 = 220 </atom> <final_answer> 220 </final_answer>"
+  },
+  {
+    "instruction": "What is 18 * 16?",
+    "response": "<thought> To solve 18 * 16, I will decompose the multiplication into 18 * 10 and 18 * 6 and then add the results. </thought> <atom> 18 * 10 = 180 </atom> <atom> 18 * 6 = 108 </atom> <atom> 180 + 108 = 288 </atom> <final_answer> 288 </final_answer>"
+  },
+  {
+    "instruction": "What is 15 * 23?",
+    "response": "<thought> To solve 15 * 23, I will decompose the multiplication into 15 * 10 and 15 * 13 and then add the results. </thought> <atom> 15 * 10 = 150 </atom> <atom> 15 * 13 = 195 </atom> <atom> 150 + 195 = 345 </atom> <final_answer> 345 </final_answer>"
+  },
+  {
+    "instruction": "What is 16 * 21?",
+    "response": "<thought> To solve 16 * 21, I will decompose the multiplication into 16 * 10 and 16 * 11 and then add the results. </thought> <atom> 16 * 10 = 160 </atom> <atom> 16 * 11 = 176 </atom> <atom> 160 + 176 = 336 </atom> <final_answer> 336 </final_answer>"
+  },
+  {
+    "instruction": "What is 18 * 21?",
+    "response": "<thought> To solve 18 * 21, I will decompose the multiplication into 18 * 10 and 18 * 11 and then add the results. </thought> <atom> 18 * 10 = 180 </atom> <atom> 18 * 11 = 198 </atom> <atom> 180 + 198 = 378 </atom> <final_answer> 378 </final_answer>"
+  },
+  {
+    "instruction": "What is 14 * 20?",
+    "response": "<thought> To solve 14 * 20, I will decompose the multiplication into 14 * 10 and 14 * 10 and then add the results. </thought> <atom> 14 * 10 = 140 </atom> <atom> 14 * 10 = 140 </atom> <atom> 140 + 140 = 280 </atom> <final_answer> 280 </final_answer>"
+  },
+  {
+    "instruction": "What is 16 * 20?",
+    "response": "<thought> To solve 16 * 20, I will decompose the multiplication into 16 * 10 and 16 * 10 and then add the results. </thought> <atom> 16 * 10 = 160 </atom> <atom> 16 * 10 = 160 </atom> <atom> 160 + 160 = 320 </atom> <final_answer> 320 </final_answer>"
+  },
+  {
+    "instruction": "What is 16 * 19?",
+    "response": "<thought> To solve 16 * 19, I will decompose the multiplication into 16 * 10 and 16 * 9 and then add the results. </thought> <atom> 16 * 10 = 160 </atom> <atom> 16 * 9 = 144 </atom> <atom> 160 + 144 = 304 </atom> <final_answer> 304 </final_answer>"
+  },
+  {
+    "instruction": "What is 12 * 22?",
+    "response": "<thought> To solve 12 * 22, I will decompose the multiplication into 12 * 10 and 12 * 12 and then add the results. </thought> <atom> 12 * 10 = 120 </atom> <atom> 12 * 12 = 144 </atom> <atom> 120 + 144 = 264 </atom> <final_answer> 264 </final_answer>"
+  },
+  {
+    "instruction": "What is 11 * 20?",
+    "response": "<thought> To solve 11 * 20, I will decompose the multiplication into 11 * 10 and 11 * 10 and then add the results. </thought> <atom> 11 * 10 = 110 </atom> <atom> 11 * 10 = 110 </atom> <atom> 110 + 110 = 220 </atom> <final_answer> 220 </final_answer>"
+  },
+  {
+    "instruction": "What is 11 * 13?",
+    "response": "<thought> To solve 11 * 13, I will decompose the multiplication into 11 * 10 and 11 * 3 and then add the results. </thought> <atom> 11 * 10 = 110 </atom> <atom> 11 * 3 = 33 </atom> <atom> 110 + 33 = 143 </atom> <final_answer> 143 </final_answer>"
+  },
+  {
+    "instruction": "What is 11 * 13?",
+    "response": "<thought> To solve 11 * 13, I will decompose the multiplication into 11 * 10 and 11 * 3 and then add the results. </thought> <atom> 11 * 10 = 110 </atom> <atom> 11 * 3 = 33 </atom> <atom> 110 + 33 = 143 </atom> <final_answer> 143 </final_answer>"
+  },
+  {
+    "instruction": "What is 11 * 19?",
+    "response": "<thought> To solve 11 * 19, I will decompose the multiplication into 11 * 10 and 11 * 9 and then add the results. </thought> <atom> 11 * 10 = 110 </atom> <atom> 11 * 9 = 99 </atom> <atom> 110 + 99 = 209 </atom> <final_answer> 209 </final_answer>"
+  },
+  {
+    "instruction": "What is 18 * 22?",
+    "response": "<thought> To solve 18 * 22, I will decompose the multiplication into 18 * 10 and 18 * 12 and then add the results. </thought> <atom> 18 * 10 = 180 </atom> <atom> 18 * 12 = 216 </atom> <atom> 180 + 216 = 396 </atom> <final_answer> 396 </final_answer>"
+  },
+  {
+    "instruction": "What is 19 * 15?",
+    "response": "<thought> To solve 19 * 15, I will decompose the multiplication into 19 * 10 and 19 * 5 and then add the results. </thought> <atom> 19 * 10 = 190 </atom> <atom> 19 * 5 = 95 </atom> <atom> 190 + 95 = 285 </atom> <final_answer> 285 </final_answer>"
+  },
+  {
+    "instruction": "What is 16 * 19?",
+    "response": "<thought> To solve 16 * 19, I will decompose the multiplication into 16 * 10 and 16 * 9 and then add the results. </thought> <atom> 16 * 10 = 160 </atom> <atom> 16 * 9 = 144 </atom> <atom> 160 + 144 = 304 </atom> <final_answer> 304 </final_answer>"
+  },
+  {
+    "instruction": "What is 16 * 11?",
+    "response": "<thought> To solve 16 * 11, I will decompose the multiplication into 16 * 10 and 16 * 1 and then add the results. </thought> <atom> 16 * 10 = 160 </atom> <atom> 16 * 1 = 16 </atom> <atom> 160 + 16 = 176 </atom> <final_answer> 176 </final_answer>"
+  },
+  {
+    "instruction": "What is 13 * 17?",
+    "response": "<thought> To solve 13 * 17, I will decompose the multiplication into 13 * 10 and 13 * 7 and then add the results. </thought> <atom> 13 * 10 = 130 </atom> <atom> 13 * 7 = 91 </atom> <atom> 130 + 91 = 221 </atom> <final_answer> 221 </final_answer>"
+  }
+]

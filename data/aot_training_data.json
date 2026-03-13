@@ -1,0 +1,22 @@
+[
+  {
+    "instruction": "What is 15 * 12?",
+    "response": "<thought> To solve 15 * 12, I will decompose the multiplication into a simpler addition of products. </thought> <atom> 15 * 10 = 150 </atom> <atom> 15 * 2 = 30 </atom> <atom> 150 + 30 = 180 </atom> <final_answer> 180 </final_answer>"
+  },
+  {
+    "instruction": "Evaluate the expression: (25 + 5) / 6 * 4",
+    "response": "<thought> I will follow the order of operations (PEMDAS): parentheses, then division/multiplication from left to right. </thought> <atom> 25 + 5 = 30 </atom> <atom> 30 / 6 = 5 </atom> <atom> 5 * 4 = 20 </atom> <final_answer> 20 </final_answer>"
+  },
+  {
+    "instruction": "If a train travels at 60 mph for 2.5 hours, how far does it go?",
+    "response": "<thought> Distance is calculated as Speed multiplied by Time. </thought> <atom> Speed = 60 mph </atom> <atom> Time = 2.5 hours </atom> <atom> 60 * 2 = 120 </atom> <atom> 60 * 0.5 = 30 </atom> <atom> 120 + 30 = 150 </atom> <final_answer> 150 miles </final_answer>"
+  },
+  {
+    "instruction": "Find the area of a rectangle with length 8 and width 4.5",
+    "response": "<thought> The area of a rectangle is length times width. </thought> <atom> Area = 8 * 4.5 </atom> <atom> 8 * 4 = 32 </atom> <atom> 8 * 0.5 = 4 </atom> <atom> 32 + 4 = 36 </atom> <final_answer> 36 </final_answer>"
+  },
+  {
+    "instruction": "Determine the next number in the sequence: 2, 4, 8, 16, ...",
+    "response": "<thought> I will identify the pattern between consecutive terms in the sequence. </thought> <atom> 4 is 2 * 2 </atom> <atom> 8 is 4 * 2 </atom> <atom> 16 is 8 * 2 </atom> <atom> The pattern is multiplying the previous term by 2. </atom> <atom> 16 * 2 = 32 </atom> <final_answer> 32 </final_answer>"
+  }
+]

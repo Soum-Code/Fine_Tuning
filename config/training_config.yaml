@@ -1,0 +1,27 @@
+training:
+  batch_size: 1
+  gradient_accumulation_steps: 1
+  num_epochs: 1
+  learning_rate: 2e-4
+  warmup_ratio: 0.1
+  weight_decay: 0.01
+  max_grad_norm: 1.0
+
+optimizer:
+  name: "adamw_torch"
+  lr_scheduler_type: "cosine"
+
+checkpointing:
+  save_steps: 1
+  save_total_limit: 3
+  resume_from_checkpoint: false
+
+device:
+  use_cpu: true
+  use_mixed_precision: false
+  gradient_checkpointing: false
+
+logging:
+  log_steps: 10
+  wandb_project: "industrial-lora-finetune"
+  wandb_entity: null
