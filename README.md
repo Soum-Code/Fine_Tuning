@@ -32,10 +32,17 @@ pip install -r requirements.txt
 $env:WANDB_MODE="disabled"; python src/training/trainer.py --model qwen_7b --template aot --dataset ./data/aot_research_data.json
 ```
 
+### 🔄 Auto-Sync Protocol
+To ensure the repository is always up-to-date, I have implemented an auto-sync utility. You can run it anytime you make changes:
+```powershell
+./scripts/sync_to_git.ps1
+```
+*Note: As your AI assistant, I will automatically run this sync after major upgrades.*
+
 ## 📈 Current Status
 - ✅ **Infrastructure Verified**: Smoke tests successful on Qwen2.5-0.5B.
 - ✅ **Quantization Hardened**: Native support for pre-quantized 20B models confirmed.
-- 🚀 **Reasoning Scaling**: Actively fine-tuning 7B architectures for complex atomic traces.
+- ✅ **Auto-Sync Active**: GitHub repository is linked and automated.
 
 ---
 *Developed for advanced AI research in reasoning and scaling.*
